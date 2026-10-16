@@ -3554,3 +3554,6 @@
 {"level":"info","message":"Development OTP: 847111","timestamp":"2026-10-16T12:20:38.930Z"}
 {"level":"info","message":"User registered and OTP email sent","timestamp":"2026-10-16T12:20:38.934Z"}
 {"level":"info","message":"User verified successfully","timestamp":"2026-10-16T12:20:48.323Z"}
+{"level":"info","message":"[DEVELOPMENT ONLY] Hospital registration OTP for sajualeena1@gmail.com: 194506","timestamp":"2026-10-16T12:23:04.726Z"}
+{"level":"info","message":"Hospital registered; verification OTP email sent","timestamp":"2026-10-16T12:23:04.726Z"}
+{"level":"info","message":"Hospital email verified successfully","timestamp":"2026-10-16T12:23:28.113Z"}
