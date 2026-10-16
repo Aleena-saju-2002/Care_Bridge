@@ -1,0 +1,156 @@
+
+.hospital-login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f8fafc;
+  font-family: Inter, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.hospital-login-card {
+  width: 100%;
+  max-width: 440px;
+  padding: 36px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+  box-sizing: border-box;
+}
+
+.hospital-login-card .signup-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hospital-login-card .signup-header h1 {
+  margin: 0 0 10px;
+  color: #2563eb;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.hospital-login-card .signup-header h2 {
+  margin: 0 0 10px;
+  color: #1e293b;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.hospital-login-card .signup-header p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.hospital-login-card .signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hospital-login-card .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hospital-login-card .form-group label {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hospital-login-card .form-group input {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1e293b;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.hospital-login-card .form-group input::placeholder {
+  color: #94a3b8;
+}
+
+.hospital-login-card .form-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.hospital-login-card .signup-submit {
+  width: 100%;
+  min-height: 48px;
+  margin-top: 6px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hospital-login-card .signup-submit:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.hospital-login-card .signup-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.hospital-login-card .login-link {
+  margin-top: 24px;
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.hospital-login-card .login-link button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hospital-login-card .login-link button:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .hospital-login-page {
+    padding: 16px;
+  }
+
+  .hospital-login-card {
+    padding: 26px 20px;
+  }
+
+  .hospital-login-card .signup-header h1 {
+    font-size: 27px;
+  }
+
+  .hospital-login-card .signup-header h2 {
+    font-size: 21px;
+  }
+}

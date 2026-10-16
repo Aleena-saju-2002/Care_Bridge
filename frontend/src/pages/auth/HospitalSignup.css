@@ -1,0 +1,184 @@
+
+.hospital-signup-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f8fafc;
+  font-family: Inter, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.hospital-signup-form {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 36px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+  box-sizing: border-box;
+}
+
+.hospital-signup-form h1 {
+  margin: 0 0 8px;
+  color: #2563eb;
+  font-size: 30px;
+  text-align: center;
+}
+
+.hospital-signup-form h2 {
+  margin: 0 0 10px;
+  color: #1e293b;
+  font-size: 23px;
+  text-align: center;
+}
+
+.hospital-signup-form h3 {
+  margin: 30px 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #2563eb;
+  font-size: 17px;
+}
+
+.hospital-signup-form > p {
+  margin: 0 0 26px;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.hospital-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 20px;
+}
+
+.hospital-form-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.hospital-form-field.full-width {
+  grid-column: 1 / -1;
+}
+
+.hospital-signup-form label {
+  margin-bottom: 7px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hospital-signup-form input,
+.hospital-signup-form select,
+.hospital-signup-form textarea {
+  width: 100%;
+  min-height: 45px;
+  padding: 11px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: #1e293b;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+transition: border-color 0.2s, background 0.2s;}
+
+.hospital-signup-form input::placeholder,
+.hospital-signup-form textarea::placeholder {
+  color: #94a3b8;
+}
+
+.hospital-signup-form input:focus,
+.hospital-signup-form select:focus,
+.hospital-signup-form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.hospital-signup-form input[type="file"] {
+  min-height: auto;
+  padding: 10px;
+  background: #f8fafc;
+  cursor: pointer;
+}
+
+.hospital-signup-form input[type="file"]::file-selector-button {
+  margin-right: 12px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hospital-signup-form button[type="submit"] {
+  width: 100%;
+  min-height: 48px;
+  margin-top: 32px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+transition: background 0.2s;
+}
+
+.hospital-signup-form button[type="submit"]:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.hospital-signup-form button[type="submit"]:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.hospital-signup-form a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hospital-signup-form a:hover {
+  text-decoration: underline;
+}
+
+.hospital-signup-form .form-footer {
+  margin-top: 22px;
+  color: #64748b;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .hospital-signup-container {
+    padding: 18px 12px;
+  }
+
+  .hospital-signup-form {
+    padding: 24px 18px;
+  }
+
+  .hospital-signup-form h1 {
+    font-size: 27px;
+  }
+
+  .hospital-form-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .hospital-form-field.full-width {
+    grid-column: auto;
+  }
+}

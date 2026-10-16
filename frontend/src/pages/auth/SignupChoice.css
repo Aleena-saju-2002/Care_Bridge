@@ -1,0 +1,90 @@
+.choice-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f8fafc;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.choice-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 36px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+}
+
+.choice-card h1 {
+  margin: 0 0 12px;
+  color: #2563eb;
+  text-align: center;
+}
+
+.choice-card h2 {
+  margin-bottom: 8px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.choice-card > p {
+  margin-bottom: 24px;
+  text-align: center;
+  color: #64748b;
+}
+
+.choice-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 18px;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.choice-button:hover {
+  border-color: #2563eb;
+  background: #f8fafc;
+}
+
+.choice-icon {
+  font-size: 30px;
+}
+
+.choice-button strong,
+.choice-button small {
+  display: block;
+}
+
+.choice-button strong {
+  margin-bottom: 6px;
+  color: #1e293b;
+  font-size: 16px;
+}
+
+.choice-button small {
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.choice-footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.choice-footer button {
+  padding: 4px;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+}
