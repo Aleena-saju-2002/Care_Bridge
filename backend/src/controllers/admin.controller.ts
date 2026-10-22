@@ -6,7 +6,7 @@ class AdminController {
   private adminService: AdminService;
 
   constructor() {
-    this.adminService = new AdminService(new AdminRepository());
+    this.adminService = new AdminService(new AdminRepository());  //
   }
 
   getAllUsers = async (
@@ -27,7 +27,7 @@ class AdminController {
 
       res.status(200).json({
         success: true,
-        message: "Users retrieved successfully",
+        message: "Users retrieved successfully",//constan
         data: result.users,
         pagination: {
           page,
@@ -58,13 +58,15 @@ class AdminController {
       }
 
       const { isBlocked } = req.body;
-
+      let count=0
       if (typeof isBlocked !== "boolean") {
+         count ++
         res.status(400).json({
           success: false,
           message: "isBlocked must be true or false",
         });
-        return;
+        
+        return count;
       }
 
 const adminId = req.user?.userId;

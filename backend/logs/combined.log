@@ -3557,3 +3557,41 @@
 {"level":"info","message":"[DEVELOPMENT ONLY] Hospital registration OTP for sajualeena1@gmail.com: 194506","timestamp":"2026-10-16T12:23:04.726Z"}
 {"level":"info","message":"Hospital registered; verification OTP email sent","timestamp":"2026-10-16T12:23:04.726Z"}
 {"level":"info","message":"Hospital email verified successfully","timestamp":"2026-10-16T12:23:28.113Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-10-16T12:50:37.358Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-16T12:50:37.861Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-10-16T12:50:38.134Z"}
+{"level":"error","message":"Redis error: Error: read ECONNRESET","timestamp":"2026-10-16T13:44:19.212Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-16T13:44:20.735Z"}
+{"level":"info","message":"Development OTP: 139485","timestamp":"2026-10-16T14:08:48.271Z"}
+{"level":"info","message":"User registered and OTP email sent","timestamp":"2026-10-16T14:08:48.276Z"}
+{"level":"info","message":"User verified successfully","timestamp":"2026-10-16T14:09:28.756Z"}
+{"level":"info","message":"Development OTP: 656611","timestamp":"2026-10-16T14:11:03.101Z"}
+{"level":"info","message":"Forgot-password OTP generated and email sent","timestamp":"2026-10-16T14:11:03.103Z"}
+{"level":"info","message":"Forgot-password OTP verified","timestamp":"2026-10-16T14:11:45.219Z"}
+{"level":"info","message":"Password reset successfully","timestamp":"2026-10-16T14:12:00.654Z"}
+{"level":"info","message":"[DEVELOPMENT ONLY] Hospital registration OTP for sajuale@gmail.com: 844790","timestamp":"2026-10-16T14:15:28.121Z"}
+{"level":"info","message":"Hospital registered; verification OTP email sent","timestamp":"2026-10-16T14:15:28.126Z"}
+{"level":"info","message":"[DEVELOPMENT ONLY] Hospital registration OTP for sajuale@gmail.com: 720725","timestamp":"2026-10-16T14:15:54.169Z"}
+{"level":"info","message":"Hospital email verified successfully","timestamp":"2026-10-16T14:16:47.946Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-10-16T14:34:30.440Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-16T14:34:30.994Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-10-16T14:34:31.315Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-10-16T14:35:09.483Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-16T14:35:09.935Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-10-16T14:35:10.244Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-10-16T14:54:41.203Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-16T14:54:41.684Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-10-16T14:54:42.024Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-10-16T14:54:56.476Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-16T14:54:56.882Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-10-16T14:54:57.202Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-10-19T07:46:23.214Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-19T07:46:23.539Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-10-19T07:46:23.823Z"}
+{"level":"error","message":"Redis error: Error: read ECONNRESET","timestamp":"2026-10-19T08:25:49.095Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-19T08:25:49.753Z"}
+{"level":"error","message":"Redis error: Error: read ECONNRESET","timestamp":"2026-10-19T10:33:15.237Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-19T10:33:15.612Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-10-22T07:07:36.711Z"}
+{"level":"info","message":"Redis connected","timestamp":"2026-10-22T07:07:37.047Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-10-22T07:07:37.315Z"}

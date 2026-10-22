@@ -47,7 +47,7 @@ class AdminRepository
     if (!Types.ObjectId.isValid(userId)) {
       return null;
     }
-
+return
     return UserModel.findByIdAndUpdate(
       userId,
       { isBlocked },
